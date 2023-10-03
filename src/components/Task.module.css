@@ -1,0 +1,86 @@
+
+.taskBox {
+
+    background: var(--gray-400);
+    width: 47rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.taskBox:first-child {
+    visibility: hidden;
+    max-height: 0;
+}
+
+
+.taskCreated{
+    display: grid;
+    grid-template-columns:  1fr;
+    background: var(--gray-600);
+    
+}
+
+
+.taskCreated + .taskCreated {
+    margin-top: 2rem;
+}
+
+.taskCreated button:nth-child(3){
+    background: transparent;
+    border:0;
+    color: var(--gray-300);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+}
+.taskCreated button:nth-child(3):hover {
+    color: var(--red-danger);
+}
+
+.taskContent {
+    background: var(--gray-400);
+    color: var(--gray-100);
+    display: flex;
+    justify-content: space-between;    
+    margin: 0.25rem;
+    margin-left: 0;
+    padding: 1rem;
+    border: 1px solid var(--gray-300);
+    border-radius: 8px;
+
+}
+
+.textCompleted {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.textIncompletedButton {
+    background: transparent;
+    border: 0;
+    color: var(--blue-light);
+    cursor: pointer;
+    line-height: 0;    /*Para não deixar espaço sobrando quando der o TAB na lixeira*/
+    border-radius: 2px;
+}
+
+.textIncompletedButton:hover {
+    color: var(--blue-dark);
+}
+
+.textCompletedButton {
+    background: transparent;
+    border: 0;
+    color: var(--purple-dark);
+    cursor: pointer;
+    line-height: 0;    /*Para não deixar espaço sobrando quando der o TAB na lixeira*/
+    border-radius: 2px;
+    visibility: visible;
+}
+
+.textCompletedButton:hover {
+    color: var(--purple-light);
+}
