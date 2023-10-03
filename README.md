@@ -1,4 +1,4 @@
-# ToDo-List--Ignite-Rocketseat ![ToDo-logo](https://github.com/Guipsantos/ToDo-list---Ignite-Rocketseat/assets/109704441/6607ba89-c707-41a1-bcaf-537049428106)![Uploading ToDo-logo.svg…]()
+# ToDo-List--Ignite-Rocketseat ![ToDo-logo](https://github.com/Guipsantos/ToDo-list---Ignite-Rocketseat/assets/109704441/6607ba89-c707-41a1-bcaf-537049428106)
 
 
 
