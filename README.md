@@ -4,7 +4,6 @@
 **Desafio 01 - ToDo List**
 Lista de tarefas onde foi desenvolvido um CRUD (Create, Read, Update, Delete).
 
-https://github.com/Guipsantos/ToDo-list---Ignite-Rocketseat/assets/109704441/f6e78af0-66dd-4fde-b631-1dcb168fdef0
 
 
 **Este projeto foi criado com:**
